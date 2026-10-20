@@ -1,0 +1,23 @@
+.sticky-col {
+  position: sticky;
+  top: 110px;
+}
+
+.sticky-col .heading {
+  margin-bottom: 28px;
+}
+
+.p2e .body-p {
+  max-width: none;
+}
+
+.p2e .body-p:first-child {
+  font-size: 1.1rem;
+  color: var(--navy);
+}
+
+@media (max-width: 768px) {
+  .sticky-col {
+    position: static;
+  }
+}

@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for ZOHOMAX
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap
+Sitemap: https://zohomax.com/sitemap.xml

@@ -1,0 +1,42 @@
+.token-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.token-card small {
+    margin-top: 18px;
+    font-family: var(--ff-head);
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--teal);
+}
+
+.token-card p {
+    margin-top: 6px;
+    color: var(--navy);
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.55;
+}
+
+@media (max-width: 520px) {
+    .token-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 14px;
+    }
+
+    .token-card small {
+        margin: 0;
+        align-self: center;
+    }
+
+    .token-card p {
+        flex-basis: 100%;
+        margin-top: 12px;
+    }
+}
