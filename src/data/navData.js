@@ -68,5 +68,5 @@ export const accountLinks = [
 
 export const whitepaper = {
   label: 'White Paper',
-  url: '/assets/ZOHOMAX white paper - 2026.pdf', 
+  url: '/assets/ZOHOMAX white paper.pdf', 
 };

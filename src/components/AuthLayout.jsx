@@ -14,8 +14,8 @@ export default function AuthLayout({ title, subtitle, children }) {
       <div className="auth-shell">
         {/* left brand panel */}
         <aside className="auth-side">
-          <Logo light />
-          <h2>Welcome to the <span>ZMAX Metaverse</span></h2>
+          {/* <Logo light /> */}
+          <h2>Welcome to the <span>ZOHOMAX Metaverse</span></h2>
           <p>Focus on long-term impact. Live with future technology — NFTs, digital assets and Web3, together in one Metaverse.</p>
           <ul>
             {points.map((p) => (
